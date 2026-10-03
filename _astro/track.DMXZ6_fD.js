@@ -1,0 +1,1 @@
+function e(e,t={}){let n=window,r={page:location.pathname,lang:document.documentElement.lang,...t};try{n.plausible?.(e,{props:r}),n.umami?.track(e,r)}catch{}}export{e as t};
